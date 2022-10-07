@@ -37,7 +37,18 @@ const Card = (article) => {
   img.src = article.authorPhoto;
   span.textContent = article.authorName;
 
-  
+  // Append children to parent;
+  imgContainer.appendChild(img);
+
+  author.appendChild(imgContainer);
+  author.appendChild(span);
+
+  parent.appendChild(headline);
+  parent.appendChild(author);
+
+  return parent;
+
+
 }
 
 const cardAppender = (selector) => {
