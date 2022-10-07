@@ -25,7 +25,12 @@ const Card = (article) => {
   const imgContainer = document.createElement("div");
   const img = document.createElement("img");
   const span = document.createElement("span");
-  
+
+  // Add classes
+  parent.classList.add("card");
+  headline.classList.add("headline");
+  author.classList.add("author");
+  imgContainer.classList.add("img-container");
 }
 
 const cardAppender = (selector) => {
