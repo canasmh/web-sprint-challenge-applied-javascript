@@ -31,6 +31,13 @@ const Card = (article) => {
   headline.classList.add("headline");
   author.classList.add("author");
   imgContainer.classList.add("img-container");
+
+  // Text content and attributes;
+  headline.textContent = article.headline;
+  img.src = article.authorPhoto;
+  span.textContent = article.authorName;
+
+  
 }
 
 const cardAppender = (selector) => {
