@@ -18,8 +18,9 @@ const Card = (article) => {
   // </div>
   //
 
+  // Create Elements
   const parent = document.createElement("div");
-  const heading = document.createElement("div");
+  const headline = document.createElement("div");
   const author = document.createElement("div");
   const imgContainer = document.createElement("div");
   const img = document.createElement("img");
