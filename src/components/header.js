@@ -21,6 +21,10 @@ const Header = (title, date, temp) => {
   dateSpan.classList.add("date");
   tempSpan.classList.add("temp");
 
+  dateSpan.textContent = date;
+  h1.textContent = title;
+  tempSpan.textContent = temp;
+
 }
 
 const headerAppender = (selector) => {
