@@ -13,14 +13,14 @@ const Header = (title, date, temp) => {
   //
 
   const header = document.createElement("div")
-  const date = documet.createElement("span");
+  const dateSpan = documet.createElement("span");
   const h1 = document.createElement("h1");
-  const temp = document.createElement("temp");
+  const tempSpan = document.createElement("temp");
 
   header.classList.add("header");
-  date.classList.add("date");
-  temp.classList.add("temp");
-  
+  dateSpan.classList.add("date");
+  tempSpan.classList.add("temp");
+
 }
 
 const headerAppender = (selector) => {
