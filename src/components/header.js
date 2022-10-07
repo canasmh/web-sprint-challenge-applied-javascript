@@ -25,6 +25,11 @@ const Header = (title, date, temp) => {
   h1.textContent = title;
   tempSpan.textContent = temp;
 
+  header.appendChild(dateSpan);
+  header.appendChild(h1);
+  header.appendChild(tempSpan)
+
+  return header;
 }
 
 const headerAppender = (selector) => {
