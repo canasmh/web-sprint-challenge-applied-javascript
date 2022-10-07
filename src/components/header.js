@@ -15,7 +15,7 @@ const Header = (title, date, temp) => {
   const header = document.createElement("div")
   const dateSpan = document.createElement("span");
   const h1 = document.createElement("h1");
-  const tempSpan = document.createElement("temp");
+  const tempSpan = document.createElement("span");
 
   header.classList.add("header");
   dateSpan.classList.add("date");
