@@ -37,7 +37,7 @@ In meeting the minimum viable product (MVP) specifications listed below, your pr
 
 - [x] Steps 1 and 2 are explained inside the `src/components/header.js` file.
 - [x] Steps 3 and 4 are explained inside the `src/components/tabs.js` file.
-- [ ] Steps 5 and 6 are explained inside the `src/components/card.js` file.
+- [x] Steps 5 and 6 are explained inside the `src/components/card.js` file.
 
 **Important Notes:**
 
@@ -50,17 +50,30 @@ In meeting the minimum viable product (MVP) specifications listed below, your pr
 
 ## Submission format
 
-- [ ] Submit via Codegrade by committing and pushing any new changes to the *main* branch.
-- [ ] Check Codegrade for automated feedback.
-- [ ] Check Codegrade in the days following the Sprint Challenge for reviewer feedback.
-- [ ] Any changes pushed after the deadline will not receive any feedback.
+- [x] Submit via Codegrade by committing and pushing any new changes to the *main* branch.
+- [x] Check Codegrade for automated feedback.
+- [x] Check Codegrade in the days following the Sprint Challenge for reviewer feedback.
+- [x] Any changes pushed after the deadline will not receive any feedback.
 
 ## Interview Questions
 
 Demonstrate your understanding of this week's concepts by answering the following questions:
 
 1. What is the DOM?
-2. What is an event?
-3. What is an event listener?
-4. Why would we convert a NodeList into an Array?
-5. What is a component?
+
+The DOM is an API that allows javascript to create, read, update or delete html content
+1. What is an event?
+
+An event is anything that can be detected by the browser, i.e., click, hover, scroll, etc.
+
+2. What is an event listener?
+
+An event listener is a method that is fired whenever an event occurs on the element that has the event listener. It takes two arguments, an event to listen to and a callback function to be executed when the event occurs.
+
+3. Why would we convert a NodeList into an Array?
+
+Converting a NodeList to an Array allows us to use all the fun Array methods such as map, filter and reduce.
+
+4. What is a component?
+
+A component is a function that returns a container consisting of html elements. Components are especially useful when you have a lot of containers that contain identical html and css classes but differ only in the content contained within these elements. Creating a component allows us to keep our code dry.
